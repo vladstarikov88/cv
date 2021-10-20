@@ -12,6 +12,12 @@ import tlustyco from "/src/assets/projects/tlustyco.png"
 import wally from "/src/assets/projects/wally.jpg"
 import gloves from "/src/assets/projects/gloves.jpg"
 
+import centerCompany from "/src/assets/companies/center.jpg"
+import upworkCompany from "/src/assets/companies/upwork.png"
+import tlustycoCompany from "/src/assets/companies/tlusty.png"
+import vendwayCompany from "/src/assets/companies/vendway.png"
+import wisCompany from "/src/assets/companies/wis.png"
+
 export default function usePicture() {
   return {
     profile,
@@ -27,5 +33,10 @@ export default function usePicture() {
     tlustyco,
     wally,
     gloves,
+    centerCompany,
+    upworkCompany,
+    tlustycoCompany,
+    vendwayCompany,
+    wisCompany,
   }
 };

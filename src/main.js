@@ -1,14 +1,5 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import './index.css'
-import favicon from './assets/favicon.ico'
+import { createApp } from 'vue';
+import App from './App.vue';
+import './index.css';
 
-createApp(App).mount('#app')
-
-
-console.log(favicon);
-const faviconBlock = document.createElement("style");
-faviconBlock.setAttribute("rel", "icon");
-faviconBlock.setAttribute("href", favicon);
-document.head.appendChild(faviconBlock);
-console.log(faviconBlock);
+createApp(App).mount('#app');

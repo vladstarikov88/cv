@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <main class="md:m-12 shadow-2xl font-light text-tiny">
+    <main class="md:m-12 shadow-2xl print:shadow-none font-light text-tiny">
       <div class="flex flex-col lg:flex-row-reverse">
         <sidebar-profile />
         <div class="content w-full p-12">
