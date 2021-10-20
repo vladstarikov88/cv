@@ -8,11 +8,12 @@
         about="Platform for trade and lending"
         description="For the project, I built the architecture, developed the components and set up the logic of user interaction with the platform"
         :image="productPicture.marsbase"
+        :tags="['Vue.js', 'Nuxt.js', 'd3', 'Jest', 'Sass']"
       />
       <project-card
         title="Boxing Federation of Russia"
         link="http://rusboxing.ru/"
-        about="Web-site"
+        about="Website for a government organization"
         description="I designed front architecture, developed components, integrated pages"
         :image="productPicture.boxing"
         :tags="['Vue.js', 'Nuxt.js', 'Bootstrap', 'Jest']"
@@ -35,14 +36,19 @@
       />
       <project-card
         title="Reports application"
+        about="Time and job management PWA"
+        description="The application was developed so that after completing each microtask, the employee can fill in his report by scanning the QR code of the microtask."
         link="https://m.brasnarstvitlusty.cz/"
         :image="productPicture.reports"
-        about=""
+        :tags="['Vue.js', 'Nuxt.js', 'PWA', 'QR-scanner']"
       />
       <project-card
         title="Cranks"
+        about="Service for managing the status of bike parts"
+        description="The customer only had an idea. Therefore, I had to design a product concept from scratch according to the customer's requirements. I also worked on UX, architecture, client-side logic. Unit testing has also been added."
         link="https://cranks.io/"
         :image="productPicture.cranks"
+        :tags="['UX', 'Conception', 'Vue.js', 'Composition api', 'Vuetify', 'Typescript', 'Sass', 'Jest']"
       />
       <project-card
         title="Miuz"
