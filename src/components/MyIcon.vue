@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import { computed, toRefs } from '@vue/reactivity'
+import { computed } from 'vue'
 
 const props = defineProps({
   icon: {
@@ -25,8 +25,6 @@ const props = defineProps({
   }
 })
 
-const { icon } = toRefs(props);
-
-const viewBox = computed(() => `0 0 ${icon.value.icon[0]} ${icon.value.icon[1]}`)
-const svgPath = computed(() => icon.value.icon[4])
+const viewBox = computed(() => `0 0 ${props.icon.icon[0]} ${props.icon.icon[1]}`)
+const svgPath = computed(() => props.icon.icon[4])
 </script>

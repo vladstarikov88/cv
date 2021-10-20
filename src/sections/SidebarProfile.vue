@@ -1,7 +1,7 @@
 <template>
   <div
     id="sidebar"
-    class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-indigo-300 via-green-300 to-white"
+    class="w-full lg:max-w-md p-8 bg-gradient-to-b from-indigo-300 via-indigo-200 to-white"
   >
     <div class="px-2 mb-12">
       <img
@@ -50,7 +50,7 @@
     <div class="font-light text-lg px-2 mb-12">
       <h2 class="text-xl font-semibold mb-4">Skills & Tools</h2>
       <ul class="list-none">
-        <li>JavaScript</li>
+        <!-- <li>JavaScript</li>
         <li>Web API</li>
         <li>Vue (2.x, 3.x)</li>
         <li>Nuxt</li>
@@ -59,7 +59,11 @@
         <li>GraphQl</li>
         <li>Canvas</li>
         <li>SCSS</li>
-        <li>Databases</li>
+        <li>Databases</li> -->
+        <li>JavaScript</li>
+        <li>Vue (2.x, 3.x)</li>
+        <li>Typescript</li>
+        <li>Node</li>
       </ul>
     </div>
 
@@ -67,27 +71,23 @@
       <h2 class="text-xl font-semibold mb-4">Education</h2>
       <h3 class="font-semibold">Master of Computer Science</h3>
       <p>Don State Technical University</p>
-      <small>2014-2020</small>
-    </div>
-
-    <div class="font-light text-lg px-2 mb-12">
-      <h2 class="text-xl font-semibold mb-4">Education</h2>
-      <h3 class="font-semibold">Master of Computer Science</h3>
+      <small>2018-2020</small>
+      <h3 class="font-semibold">Bachelor of Computer Science</h3>
       <p>Don State Technical University</p>
-      <small>2014-2020</small>
+      <small>2014-2018</small>
     </div>
 
     <div class="font-light text-lg px-2 mb-12">
       <h2 class="text-xl font-semibold mb-4">Languages</h2>
-      <h3 class="font-semibold">Russian</h3>
-      <h3 class="font-semibold">English</h3>
-      <h3 class="font-semibold">Czech</h3>
+      <h3>Russian</h3>
+      <h3>English</h3>
+      <h3>Czech</h3>
     </div>
   </div>
 </template>
 
 <script setup>
-import MyIcon from "./MyIcon.vue";
+import MyIcon from "../components/MyIcon.vue";
 import useIcons from '../composables/useIcons';
 
 const { mail, location, telegramm, linkedin, github, upwork } = useIcons();

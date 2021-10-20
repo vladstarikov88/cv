@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.section-headline {
+  @apply font-bold sm:text-xl uppercase tracking-widest border-green-500 border-l-8 pl-2;
+}
+
 
 progress {
   margin-top: 0.5rem;
@@ -37,4 +41,11 @@ progress::-webkit-progress-value {
   background-size: contain;
   margin-right: 12px;
   border-radius: 50%;
+}
+
+.prose {
+  max-width: initial;
+  a {
+    text-decoration: initial;
+  }
 }

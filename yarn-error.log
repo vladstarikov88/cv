@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn add @fortawesome/free-brand-svg-icons
+  /usr/bin/node /usr/bin/yarn add @tailwindcss -D
 
 PATH: 
   /home/star/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
@@ -14,8 +14,8 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@fortawesome%2ffree-brand-svg-icons: Not found
-      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66988:18)
+  Error: https://registry.yarnpkg.com/@tailwindcss: Request "https://registry.yarnpkg.com/@tailwindcss" returned a 405
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66997:18)
       at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140749:22)
       at Request.emit (node:events:394:28)
       at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141721:10)
@@ -36,6 +36,7 @@ npm manifest:
       "serve": "vite preview"
     },
     "dependencies": {
+      "@fortawesome/free-brands-svg-icons": "^5.15.4",
       "@fortawesome/free-regular-svg-icons": "^5.15.4",
       "@fortawesome/free-solid-svg-icons": "^5.15.4",
       "autoprefixer": "^10.3.7",
@@ -44,6 +45,7 @@ npm manifest:
       "vue": "^3.2.16"
     },
     "devDependencies": {
+      "@tailwindcss/typography": "^0.4.1",
       "@vitejs/plugin-vue": "^1.9.3",
       "vite": "^2.6.4"
     }
@@ -88,6 +90,13 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.36.tgz#b44e52db3b6b20523e0c57ef8c42d315532cb903"
     integrity sha512-a/7BiSgobHAgBWeN7N0w+lAhInrGxksn13uK7231n2m8EDPE3BMCl9NZLTGrj9ZXfCmC6LM0QLqXidIizVQ6yg==
   
+  "@fortawesome/free-brands-svg-icons@^5.15.4":
+    version "5.15.4"
+    resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.15.4.tgz#ec8a44dd383bcdd58aa7d1c96f38251e6fec9733"
+    integrity sha512-f1witbwycL9cTENJegcmcZRYyawAFbm8+c6IirLmwbbpqz46wyjbQYLuxOc7weXFXfB7QR8/Vd2u5R3q6JYD9g==
+    dependencies:
+      "@fortawesome/fontawesome-common-types" "^0.2.36"
+  
   "@fortawesome/free-regular-svg-icons@^5.15.4":
     version "5.15.4"
     resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.15.4.tgz#b97edab436954333bbeac09cfc40c6a951081a02"
@@ -122,6 +131,16 @@ Lockfile:
     dependencies:
       "@nodelib/fs.scandir" "2.1.5"
       fastq "^1.6.0"
+  
+  "@tailwindcss/typography@^0.4.1":
+    version "0.4.1"
+    resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.4.1.tgz#51ddbceea6a0ee9902c649dbe58871c81a831212"
+    integrity sha512-ovPPLUhs7zAIJfr0y1dbGlyCuPhpuv/jpBoFgqAc658DWGGrOBWBMpAWLw2KlzbNeVk4YBJMzue1ekvIbdw6XA==
+    dependencies:
+      lodash.castarray "^4.4.0"
+      lodash.isplainobject "^4.0.6"
+      lodash.merge "^4.6.2"
+      lodash.uniq "^4.5.0"
   
   "@types/parse-json@^4.0.0":
     version "4.0.0"
@@ -842,10 +861,30 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
     integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
   
+  lodash.castarray@^4.4.0:
+    version "4.4.0"
+    resolved "https://registry.yarnpkg.com/lodash.castarray/-/lodash.castarray-4.4.0.tgz#c02513515e309daddd4c24c60cfddcf5976d9115"
+    integrity sha1-wCUTUV4wna3dTCTGDP3c9ZdtkRU=
+  
+  lodash.isplainobject@^4.0.6:
+    version "4.0.6"
+    resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
+    integrity sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
+  
+  lodash.merge@^4.6.2:
+    version "4.6.2"
+    resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+    integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
+  
   lodash.topath@^4.5.2:
     version "4.5.2"
     resolved "https://registry.yarnpkg.com/lodash.topath/-/lodash.topath-4.5.2.tgz#3616351f3bba61994a0931989660bd03254fd009"
     integrity sha1-NhY1Hzu6YZlKCTGYlmC9AyVP0Ak=
+  
+  lodash.uniq@^4.5.0:
+    version "4.5.0"
+    resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
+    integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
   
   lodash@^4.17.21:
     version "4.17.21"
