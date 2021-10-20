@@ -45,7 +45,7 @@ progress::-webkit-progress-value {
 
 .prose {
   max-width: initial;
-  a {
-    text-decoration: initial;
-  }
+}
+.prose a {
+  text-decoration: initial;
 }
