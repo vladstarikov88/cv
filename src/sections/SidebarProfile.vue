@@ -5,7 +5,7 @@
   >
     <div class="px-2 mb-12">
       <img
-        src="../assets/profile-photo.jpg"
+        :src="profilePhoto"
         alt="Profile Picture"
         class="rounded-full w-48 mx-auto mb-2"
       />
@@ -87,6 +87,8 @@
 </template>
 
 <script setup>
+import profilePhoto from '/src/assets/profile-photo.jpg'
+
 import MyIcon from "../components/MyIcon.vue";
 import useIcons from '../composables/useIcons';
 
