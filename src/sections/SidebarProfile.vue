@@ -31,9 +31,7 @@
         </div>
         <div class="flex items-center my-3">
           <my-icon :icon="location" class="mr-4" />
-          <div>
-            <p>Russia, Rostov-on-Don</p>
-          </div>
+          <a href="https://www.google.com/maps/place/@47.2609872,39.5579607,12z/data=!3m1!4b1!4m5!3m4!1s0x40e3c777c3b4b6ef:0x8248b451e48b4d04!8m2!3d47.2357137!4d39.701505" target="_blank">Russia, Rostov-on-Don</a>
         </div>
       </div>
 
