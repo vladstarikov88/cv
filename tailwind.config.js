@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       screens: {
         'print': {'raw': 'print'},
+        'xx': {
+          'max': '500px',
+          'min': '600px',
+        },
       },
       fontSize: {
         'tiny': '10px',

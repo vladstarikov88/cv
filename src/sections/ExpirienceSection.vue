@@ -8,7 +8,11 @@
     >
       <template v-slot:title>Tlusty & Co. s.r.o.</template>
       <template v-slot:position>Lead frontend, UX designer</template>
-      <template v-slot:description>I wrote a website builder to build web pages that use data from the company's internal api. The constructor allows you to create tables, questionnaires, forms, CRUD elements with advanced functionality. A lot of work has been done on architecture design using design patterns</template>
+      <template v-slot:description>
+        <div class="mb-1">I wrote a website builder to build web pages that use data from the company's internal api. The constructor allows you to create tables, questionnaires, forms, CRUD elements with advanced functionality. A lot of work has been done on architecture design using design patterns.</div>
+        <div class="mb-1">PWA was also developed, which allows an employee of the company to track time and manage the amount of work completed.</div>
+        <div>Using the above constructor, the ability to create polls was also developed. Therefore, employees using a clear interface can create polls in a couple of clicks.</div>
+      </template>
       <!-- <template v-slot:period>Nov 2019 - now</template> -->
       <template v-slot:period>Mar 2020 - now</template>
     </experience-description>
@@ -19,7 +23,10 @@
     >
       <template v-slot:title>Freelance</template>
       <template v-slot:position>Entrepreneur, developer</template>
-      <template v-slot:description>After switching to freelance, I discovered a lot of skills. Searching for projects, communicating with customers, assigning roles, estimating deadlines, management, planning, reporting. In addition, I developed software products, learned the laws</template>
+      <template v-slot:description>
+        <div class="mb-1">After switching to freelance, I discovered a lot of skills. Searching for projects, communicating with customers, assigning roles, estimating deadlines, management, planning, reporting. In addition, I developed software products, learned the laws</div>
+        <div>Therefore, there are no unsolvable issues for me, since I have already understood that all issues can be solved.</div>
+      </template>
       <template v-slot:period>Nov 2019 - now</template>
     </experience-description>
 
