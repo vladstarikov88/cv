@@ -1,5 +1,6 @@
 import {
   faMapMarkerAlt,
+  faExternalLinkAlt,
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
@@ -31,6 +32,7 @@ export default function useIcons() {
     location: faMapMarkerAlt,
     linkedin: faLinkedin,
     github: faGithub,
+    externalLink: faExternalLinkAlt,
     upwork,
   };
 };

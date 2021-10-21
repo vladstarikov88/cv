@@ -3,16 +3,16 @@
     <main class="md:m-12 shadow-2xl print:shadow-none font-light text-tiny">
       <div class="flex flex-col lg:flex-row-reverse">
         <sidebar-profile />
-        <div class="content w-full p-8 sm:p-12 print:pt-0">
+        <div class="content w-full p-8 sm:p-12 print:pt-0 print:pb-0">
           <profile-section />
           <hr class="mt-8 mb-12" />
           <expirience-section />
         </div>
       </div>
-      <div class="content w-full p-12">
+      <div class="content w-full p-8 sm:p-12 print:pt-0">
         <projects-section class="print:hidden"/>
-        <!-- <hr class="mt-8 mb-12" />
-        <skills-section /> -->
+        <hr class="mt-8 mb-12" />
+        <skills-section />
       </div>
     </main>
   </div>

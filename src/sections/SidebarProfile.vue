@@ -56,38 +56,36 @@
         <h3>Russian</h3>
         <h3>English</h3>
         <h3>Czech</h3>
+        <h3>JavaScript</h3>
       </div>
 
       <div class="font-light text-lg px-2 mb-8 print:col-start-2">
         <h2 class="text-xl font-semibold mb-3">Basic skills</h2>
         <ul class="list-none">
-          <!-- <li>JavaScript</li>
-          <li>Web API</li>
-          <li>Vue (2.x, 3.x)</li>
-          <li>Nuxt</li>
-          <li>Typescript</li>
-          <li>Node</li>
-          <li>GraphQl</li>
-          <li>Canvas</li>
-          <li>SCSS</li>
-          <li>Databases</li> -->
-          <li>JavaScript</li>
           <li>Vue (2.x, 3.x)</li>
           <li>Typescript</li>
-          <li>Node</li>
-          <li>Nuxt</li>
-          <li>GraphQl</li>
+          <li>Node.js</li>
+          <li>Nuxt.js</li>
         </ul>
       </div>
 
       <div class="font-light text-lg px-2 mb-8 print:col-start-1 print:row-start-2">
         <h2 class="text-xl font-semibold mb-3">Education</h2>
-        <h3 class="font-semibold">M.Eng. Information Security</h3>
-        <p>Don State Technical University</p>
-        <small>2018-2020</small>
-        <h3 class="font-semibold">B.Sc. Computer Science</h3>
-        <p>Don State Technical University</p>
-        <small>2014-2018</small>
+        <div class="mb-1">
+          <h3 class="font-semibold">M.Eng. Information Security</h3>
+          <p>Don State Technical University</p>
+          <small>2018-2020</small>
+        </div>
+        <div class="mb-1">
+          <h3 class="font-semibold">B.Sc. Computer Science</h3>
+          <p>Don State Technical University</p>
+          <small>2014-2018</small>
+        </div>
+        <div>
+          <h3 class="font-semibold">Half-year internship</h3>
+          <p>VŠB - Technická univerzita Ostrava</p>
+          <small>2016-2017</small>
+        </div>
       </div>
     </div>
   </div>

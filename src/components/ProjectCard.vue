@@ -1,7 +1,15 @@
 <template>
   <div class= "overflow-hidden shadow-lg transition duration-300 ease-in-out hover:shadow-2xl rounded-lg p-4">
     <div class="text-2xl font-medium pt-2">
-      <linked-title :link="link">{{ title }}</linked-title>
+      <linked-title :link="link">
+        {{ title }}
+        <my-icon
+          v-if="link"
+          class="text-gray-400"
+          small
+          :icon="externalLink"
+        />
+      </linked-title>
     </div>
     <p class="text-gray-800 text-md font-medium mt-4">
       {{ about }}
@@ -21,6 +29,8 @@
 
 <script setup>
 import LinkedTitle from "./LinkedTitle.vue";
+import MyIcon from "./MyIcon.vue";
+import useIcons from '../composables/useIcons';
 
 defineProps({
   title: {
@@ -50,4 +60,6 @@ defineProps({
     },
   },
 })
+
+const { externalLink } = useIcons();
 </script>
