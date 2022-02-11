@@ -8,7 +8,7 @@
       I'm highly motivated in expanding my horizons day by day for better performance, testing and user experience.
     </p>
     <p>
-      My key skills also include time estimating, team management, making great interfaces and giving the expected results. I salut challenges and interesting tasks.
+      My key skills also include time estimating, team management, making great interfaces and giving the expected results. I salute challenges and interesting tasks.
     </p>
   </div>
 </template>

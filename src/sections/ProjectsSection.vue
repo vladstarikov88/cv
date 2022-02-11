@@ -90,9 +90,12 @@
         :image="productPicture.gloves"
         :tags="['Vue.js', 'HTML', 'Scss', 'Webpack']"
       />
-        <!-- title="Tetris-like game"
-        title="вендинговые автоматы"
-        this site -->
+      <!--
+        Tetris-like game
+        lg form login (скрины в переписке со сльвом)
+        вендинговые автоматы
+        фрактальная шиза
+      -->
     </div>
   </div>
 </template>
