@@ -1,4 +1,3 @@
-import profile from '/src/assets/profile-photo.jpg'
 import marsbase from "/src/assets/projects/marsbase.jpg"
 import boxing from "/src/assets/projects/boxing.png"
 import wecare from "/src/assets/projects/wecare.jpg"
@@ -17,10 +16,10 @@ import upworkCompany from "/src/assets/companies/upwork.png"
 import tlustycoCompany from "/src/assets/companies/tlusty.png"
 import vendwayCompany from "/src/assets/companies/vendway.png"
 import wisCompany from "/src/assets/companies/wis.png"
+import cryptoCompany from "/src/assets/companies/btc.jpg"
 
 export default function usePicture() {
   return {
-    profile,
     marsbase,
     boxing,
     wecare,
@@ -38,5 +37,6 @@ export default function usePicture() {
     tlustycoCompany,
     vendwayCompany,
     wisCompany,
+    cryptoCompany,
   }
 };

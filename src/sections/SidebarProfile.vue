@@ -92,7 +92,7 @@
 </template>
 
 <script setup>
-import profilePhoto from '/src/assets/profile-photo.jpg'
+import profilePhoto from '/src/assets/profile.jpg'
 
 import MyIcon from "../components/MyIcon.vue";
 import useIcons from '../composables/useIcons';
