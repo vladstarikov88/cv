@@ -10,5 +10,8 @@
     <p>
       My key skills also include time estimating, team management, making great interfaces and giving the expected results. I salute challenges and interesting tasks.
     </p>
+    <p>
+      I've worked with many companies from all over the world. These were Russia, Latvia, Czech Republic, Estonia, Germany, France, United Arab Emirates, Israel, China. Therefore, I am open to new countries and cultures
+    </p>
   </div>
 </template>

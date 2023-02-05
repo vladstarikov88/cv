@@ -6,16 +6,16 @@
         I'd like to expand my skills and knowledges in several fields
       </h4>
       <ul>
-        <li><span class="font-medium">Vue (2.x, 3.x)</span>. I prefer the 3.x, in particular, because of the more convenient ability to decompose the application.</li>
+        <li><span class="font-medium">Vue</span></li>
         <li><span class="font-medium">JavaScript (ES5+)</span></li>
-        <li><span class="font-medium">Web API</span>. I know that is <span class="italic">setTimeout</span> and how it works</li>
-        <li><span class="font-medium">Node.js (+ Express.js<!-- koa -->)</span>. I'm studying to understand how JS works. I also use in my pet projects</li>
+        <li><span class="font-medium">Web API</span>. I know what is the <span class="italic">setTimeout</span> and how it works</li>
+        <li><span class="font-medium">Node.js (+ Express.js<!-- koa -->)</span></li>
         <li><span class="font-medium">Nuxt.js</span></li>
         <li><span class="font-medium">Typescript</span></li>
         <li><span class="font-medium">REST api</span></li>
         <li><span class="font-medium">GraphQl (+ Apollo)</span></li>
         <li><span class="font-medium">Canvas</span></li>
-        <li><span class="font-medium">HTML</span>. Over the past years, I've done few layout from scratch, as I use ready-made UI solutions.</li>
+        <li><span class="font-medium">HTML</span></li>
         <li><span class="font-medium">SCSS</span></li>
         <li><span class="font-medium">CI/CD</span>, I know how to set up a simple front-end deployment using gitlab CI</li>
         <li><span class="font-medium">MongoDB</span>. I use in my pet projects</li>

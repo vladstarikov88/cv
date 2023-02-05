@@ -8,21 +8,9 @@
       <template v-slot:title>Crypto project</template>
       <template v-slot:position>Lead frontend</template>
       <template v-slot:description>
-        <div>No description</div>
+        <div>NDA</div>
       </template>
       <template v-slot:period>Nov 2021 - now</template>
-    </experience-description>
-
-    <experience-description
-      :image="companyPicture.upworkCompany"
-    >
-      <template v-slot:title>Freelance</template>
-      <template v-slot:position>Entrepreneur, developer</template>
-      <template v-slot:description>
-        <div class="mb-1">After switching to freelance, I discovered a lot of skills. Searching for projects, communicating with customers, assigning roles, estimating deadlines, management, planning, reporting. In addition, I developed software products, learned more about the laws to become an entrepreneur.</div>
-        <div>Therefore, there are no insurmountable issues for me, since I have already understood that everything is resolvable.</div>
-      </template>
-      <template v-slot:period>Jan 2021 - now</template>
     </experience-description>
 
     <experience-description
@@ -37,6 +25,18 @@
         <div>Within the above builder, the feature to create polls was also developed. Therefore, employees can create polls in a couple of clicks using a clear interface.</div>
       </template>
       <template v-slot:period>Nov 2019 - Nov 2021</template>
+    </experience-description>
+
+    <experience-description
+      :image="companyPicture.upworkCompany"
+    >
+      <template v-slot:title>Freelance</template>
+      <template v-slot:position>Entrepreneur, developer</template>
+      <template v-slot:description>
+        <div class="mb-1">After switching to freelance, I discovered a lot of skills. Searching for projects, communicating with customers, assigning roles, estimating deadlines, management, planning, reporting. In addition, I developed software products, learned more about the laws to become an entrepreneur.</div>
+        <div>Therefore, there are no insurmountable issues for me, since I have already understood that everything is resolvable.</div>
+      </template>
+      <template v-slot:period>May 2019 - Nov 2021</template>
     </experience-description>
 
     <experience-description

@@ -12,7 +12,7 @@
         />
         <div class="flex flex-col justify-center items-center print:items-start">
           <h1 class="text-center text-3xl font-semibold mb-2">Starikov Vladislav</h1>
-          <h2 class="text-center text-xl font-light">Frontend Developer</h2>
+          <h2 class="text-center text-xl font-light">Frontend Developer, 25 y.o.</h2>
         </div>
       </div>
     </div>
@@ -28,10 +28,6 @@
         <div class="flex items-center my-3">
           <my-icon :icon="telegramm" class="mr-4" />
           <a href="https://t.me/vladstarikov" target="_blank">@vladstarikov</a>
-        </div>
-        <div class="flex items-center my-3">
-          <my-icon :icon="location" class="mr-4" />
-          <a href="https://www.google.com/maps/place/@47.2609872,39.5579607,12z/data=!3m1!4b1!4m5!3m4!1s0x40e3c777c3b4b6ef:0x8248b451e48b4d04!8m2!3d47.2357137!4d39.701505" target="_blank">Russia, Rostov-on-Don</a>
         </div>
       </div>
 
@@ -62,7 +58,7 @@
       <div class="font-light text-lg px-2 mb-8 print:col-start-2">
         <h2 class="text-xl font-semibold mb-3">Basic skills</h2>
         <ul class="list-none">
-          <li>Vue (2.x, 3.x)</li>
+          <li>Vue (+ ecosystem)</li>
           <li>Typescript</li>
           <li>Node.js</li>
           <li>Nuxt.js</li>
