@@ -12,6 +12,8 @@
         <li><span class="font-medium">Node.js (+ Express.js<!-- koa -->)</span></li>
         <li><span class="font-medium">Nuxt.js</span></li>
         <li><span class="font-medium">Typescript</span></li>
+        <li><span class="font-medium">Eslint</span></li>
+        <li><span class="font-medium">Module bundlers (webpack, vue cli, vite) </span></li>
         <li><span class="font-medium">REST api</span></li>
         <li><span class="font-medium">GraphQl (+ Apollo)</span></li>
         <li><span class="font-medium">Canvas</span></li>
